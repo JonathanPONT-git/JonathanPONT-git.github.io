@@ -11,7 +11,7 @@
     "start": "node .output/server/index.mjs",
 
     "deploy": "npm run generate && gh-pages -d .output/public -b gh-pages -f -u \"Jonathan PONT <233801802+JonathanPONT-git@users.noreply.github.com>\"",
-    "publish": "npm run generate && robocopy .output\\public docs /E && git add . && git commit -m \"Update site\" && git push"
+    "publish": "npm run generate && powershell -Command \"robocopy '.output\\public' 'docs' /E; if ($LASTEXITCODE -le 7) { exit 0 } else { exit $LASTEXITCODE }\" && git add . && git commit -m \"Update site\" && git push"
 
   },
   "devDependencies": {
