@@ -4,10 +4,6 @@ This is a fully customizable portfolio website built using Nuxt 3. You can easil
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Demo
-
-A demo (my portfolio) is available here : [Demo JLsquare](http://www.jlsquare.fr/)
-
 ## Getting Started
 
 ### Prerequisites
@@ -19,7 +15,7 @@ A demo (my portfolio) is available here : [Demo JLsquare](http://www.jlsquare.fr
 1.  Clone this repository:
 
 ```sh
-git clone https://github.com/JLsquare/portfolio.git
+git clone https://github.com/JonathanPONT-git/JonathanPONT-git.github.io
 ```
 
 2.  Navigate to the project folder:
@@ -60,3 +56,9 @@ npm run preview
 ```
 
 4. Deploy using your solution of choice. Personally, I use [NGINX](https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/) to serve the static website.
+
+5. Update on git:
+
+```sh
+npm run publish
+```
