@@ -29,6 +29,10 @@
     {
       "mode": "Association",
       "label": "Association"
+    },
+    {
+      "mode": "BTS (E6)",
+      "label": "BTS (E6)"
     }
   ],
 
@@ -194,6 +198,166 @@
         "After Effect",
         "Instagram"
       ]
+    },
+
+    {
+      "title": "Création de contenu Instagram",
+      "category": [
+        "Fiche 1",
+        "BTS (E6)",
+        "Annexe 1"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F1A1.png",
+      "tools": [
+        "After Effect",
+        "Canva",
+        "Instagram"
+      ]
+    },
+
+    {
+      "title": "Gestion d'un jeu concours",
+      "category": [
+        "Fiche 1",
+        "BTS (E6)",
+        "Annexe 2"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F1A2.png",
+      "tools": [
+        "After Effect",
+        "Canva",
+        "Instagram"
+      ]
+    },
+
+    {
+      "title": "Feed Instagram",
+      "category": [
+        "Fiche 1",
+        "BTS (E6)",
+        "Annexe 3"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F1A3.png",
+      "tools": [
+        "Instagram"
+      ]
+    },
+
+    {
+      "title": "Ligne Editoriale",
+      "category": [
+        "Fiche 1",
+        "BTS (E6)",
+        "Annexe 4"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F1A4.png",
+      "tools": [
+        "Google Doc"
+      ]
+    },
+
+    {
+      "title": "Rangement et Archive des posts",
+      "category": [
+        "Fiche 1",
+        "BTS (E6)",
+        "Annexe 5"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F1A5.png",
+      "tools": [
+        "Google Drive"
+      ]
+    },
+
+    {
+      "title": "Banque D'image LalibeeCreations",
+      "category": [
+        "Fiche 2",
+        "BTS (E6)",
+        "Annexe 1"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F2A1.png",
+      "tools": [
+        "Google Drive"
+      ]
+    },
+
+    {
+      "title": "Banque D'image QueenAmann",
+      "category": [
+        "Fiche 2",
+        "BTS (E6)",
+        "Annexe 2"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F2A2.png",
+      "tools": [
+        "Google Drive"
+      ]
+    },
+
+    {
+      "title": "Note Réunion Prestataire",
+      "category": [
+        "Fiche 2",
+        "BTS (E6)",
+        "Annexe 3"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F2A3.png",
+      "tools": [
+        "Google Doc"
+      ]
+    },
+
+    {
+      "title": "Création des Assets de Steam",
+      "category": [
+        "Fiche 3",
+        "BTS (E6)",
+        "Annexe 1"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F3A1.png",
+      "tools": [
+        "After Effect",
+        "Twtich"
+      ]
+    },
+
+    {
+      "title": "Création de contenu pour l'Eps'up",
+      "category": [
+        "Fiche 3",
+        "BTS (E6)",
+        "Annexe 2"
+      ],
+      "description": "",
+      "image": "images/projects/Dossier_BTS/F3A2.png",
+      "tools": [
+        "Canva",
+        "Instagram"
+      ]
+    },
+
+    {
+      "title": "Banque D'image LalibeeCreations",
+      "category": [
+        "Fiche 3",
+        "BTS (E6)",
+        "Annexe 3"
+      ],
+      "description": "Aide et Gestion d'un évenement",
+      "image": "images/projects/Dossier_BTS/F3A3.png",
+      "tools": [
+        "Twitch"
+      ]
     }
 
   ],
@@ -218,6 +382,10 @@
       {
         "name": "Canva",
         "image": "images/skills/canva.png"
+      },
+      {
+        "name": "After Effect",
+        "image": "images/skills/AfterEffect.png"
       }
     ],
     "Outils": [
