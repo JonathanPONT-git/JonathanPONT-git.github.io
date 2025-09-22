@@ -1,0 +1,333 @@
+{
+  "infos": {
+    "name": "Jonathan PONT.",
+    "title": "Etudiant en Communication.",
+    "description": {
+      "firstPart": "J'ai 21 ans",
+      "secondPart": "et j'étudie la communication sous tout ses angles, actuellement en 2ème année"
+    },
+    "about": "Je suis étudiant en BTS Communication, passionné par divers domaines de la communication, notamment la création de contenus visuels, le montage vidéo, l'animation 3D et la production musicale. J'ai acquis une solide base de connaissances à travers ma formation académique et mes projets personnels, qui m'ont permis de développer ma créativité et mon sens de l'innovation."
+  },
+
+  "projectButtons": [
+    {
+      "mode": "All",
+      "label": "All"
+    },
+    {
+      "mode": "Ecole",
+      "label": "Ecole"
+    },
+    {
+      "mode": "Personnel",
+      "label": "Personnel"
+    },
+    {
+      "mode": "Entreprise",
+      "label": "Entreprise"
+    },
+    {
+      "mode": "Association",
+      "label": "Association"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Animation 3D",
+      "category": [
+        "3D",
+        "Personnel",
+        "Work-In-Progress"
+      ],
+      "description": "Je voulais réaliser un clip musical pour 'Lufitopia - Victory In Silence'. Pour cela, il était nécessaire d'apprendre la 3D. J'ai donc choisi de me former seul sur Blender. Bien que les débuts était difficiles, je m'en sors bien maintenant et l'animation est en cours de réalisation.",
+      "image": "images/projects/animation3D.mp4",
+      "tools": [
+        "Blender",
+        "Youtube"
+      ]
+    },
+    {
+      "title": "Projet influenceur",
+      "category": [
+        "Instagram",
+        "Ecole",
+        "2024"
+      ],
+      "description": "Mon projet scolaire consistait à développer un compte Instagram influent nommé 'Lufitopia', axé sur l'univers des jeux vidéo. L'objectif était de partager des informations sur les nouveautés, mises à jour et technologies des jeux vidéo, tout en ajoutant une touche d'humour pour captiver et engager l'audience. Ce compte devait être à la fois une ressource éducative et un moyen d'interaction créative avec les passionnés de jeux vidéo.",
+      "image": "images/projects/influenceur.mp4",
+      "tools": [
+        "Instagram",
+        "GIMP",
+        "CANVA",
+        "Linktree"
+      ]
+    },
+    {
+      "title": "CV Créatif",
+      "category": [
+        "CV",
+        "Personnel",
+        "2024"
+      ],
+      "description": "Création d'un CV créatif qui mette en valeur nos compétences en montage et autres domaines, tout en étant original. Ce projet personnel avait également pour but de m'entraîner et de me familiariser avec de nouveaux outils.",
+      "image": "images/projects/CV_Creatif.mp4",
+      "tools": [
+        "GIMP",
+        "CANVA"
+      ]
+    },
+    {
+      "title": "Présentation d'une entreprise",
+      "category": [
+        "Management",
+        "Ecole",
+        "2024"
+      ],
+      "description": "Nous devions travailler par paires pour expliquer comment créer une entreprise. Le but était de rendre la présentation compréhensible pour des enfants d'école primaire, en utilisant soit des dessins, soit un logiciel comme Doodly.",
+      "image": "images/projects/presentation_entreprise.mp4",
+      "tools": [
+        "Doodly",
+        "Audacity",
+        "Sony Vegas Pro"
+      ]
+    },
+    {
+      "title": "Création d'une musique",
+      "category": [
+        "Musique",
+        "Personnel",
+        "2024"
+      ],
+      "description": "Je voulais créer une musique, ce qui m'a donné l'opportunité d'apprendre à composer de la musique électronique, un domaine qui m'a toujours passionné. J'ai donc décidé de me former de manière autodidacte pour réaliser ce projet.",
+      "image": "images/projects/musique.png",
+      "tools": [
+        "LLMS",
+        "Vital"
+      ]
+    },
+    {
+      "title": "Contraste BD",
+      "category": [
+        "Montage",
+        "Ecole",
+        "2023"
+      ],
+      "description": "nous devions illustrer le contraste sur une image. Nous avions la liberté de choisir la méthode que nous voulions utiliser. Pour ma part, j'ai opté pour la création d'une mini-BD.",
+      "image": "images/projects/BD.mp4",
+      "tools": [
+        "GIMP",
+        "Camera"
+      ]
+    },
+
+    {
+      "title": "Création de visuel de prix",
+      "category": [
+        "Visuel",
+        "Entreprise",
+        "2024"
+      ],
+      "description": "J'ai conçu de nouvelles étiquettes de prix pour le magasin, ce qui m'a permis de perfectionner mes compétences en design graphique avec Canva et de proposer des visuels clairs et attractifs adaptés aux besoins de l'entreprise.",
+      "image": "images/projects/visuel_prix.mp4",
+      "tools": [
+        "CANVA"
+      ]
+    },
+
+    {
+      "title": "Mon premier post instagram (Lalibee)",
+      "category": [
+        "Visuel",
+        "Entreprise",
+        "2024"
+      ],
+      "description": "J'ai réalisé mon tout premier post Instagram pour Lalibee. Ce projet m'a permis de me familiariser avec la création de contenu sur Canva tout en développant une communication visuelle adaptée à la ligne éditoriale de l'entreprise.",
+      "image": "images/projects/premier_post.mp4",
+      "tools": [
+        "CANVA",
+        "Instagram"
+      ]
+    },
+
+    {
+      "title": "Gestion instagram LalibeeCréations",
+      "category": [
+        "Visuel",
+        "Entreprise",
+        "2024"
+      ],
+      "description": "J'ai géré le compte Instagram de LalibeeCréations, en créant et publiant des contenus visuels attractifs. Ce projet m'a permis de perfectionner mes compétences sur Canva et Meta Business Suite, ainsi que d'explorer des animations avec After Effects pour renforcer l'engagement des publications.",
+      "image": "images/projects/instagram_lalibeecreations.mp4",
+      "tools": [
+        "Meta Business Suite",
+        "After Effect",
+        "CANVA"
+      ]
+    },
+
+    {
+      "title": "Création Asset de stream pour ObiLan",
+      "category": [
+        "Visuel",
+        "Association",
+        "2024"
+      ],
+      "description": "J'ai conçu des assets de stream pour ObiLan, adaptés à leur charte graphique et à l'univers du streaming. Ce projet m'a permis d'améliorer mes compétences en animation avec After Effects et d'acquérir de l'expérience dans la personnalisation d'éléments pour Twitch.",
+      "image": "images/projects/asset_stream.mp4",
+      "tools": [
+        "After Effect",
+        "Twitch"
+      ]
+    },
+
+    {
+      "title": "Création d'un post instagram pour Eps'up",
+      "category": [
+        "Visuel",
+        "Association",
+        "2024"
+      ],
+      "description": "J'ai réalisé un post Instagram pour présenter le roster Carapateur de League of Legends. Ce projet m'a permis de travailler sur une communication visuelle percutante, en respectant l'identité de l'équipe et en valorisant ses membres.",
+      "image": "images/projects/premier_post_epsup.mp4",
+      "tools": [
+        "After Effect",
+        "Instagram"
+      ]
+    }
+
+  ],
+  "skills": {
+    "Montage": [
+      {
+        "name": "GIMP",
+        "image": "images/skills/gimp.png"
+      },
+      {
+        "name": "Photoshop",
+        "image": "images/skills/photoshop.png"
+      },
+      {
+        "name": "Sony Vegas Pro",
+        "image": "images/skills/sony_vegas_pro.png"
+      },
+      {
+        "name": "Davinci Resolve",
+        "image": "images/skills/davinci_resolve.png"
+      },
+      {
+        "name": "Canva",
+        "image": "images/skills/canva.png"
+      }
+    ],
+    "Outils": [
+      {
+        "name": "Word",
+        "image": "images/skills/word.png"
+      },
+      {
+        "name": "Excel",
+        "image": "images/skills/excel.png"
+      },
+      {
+        "name": "chatGPT",
+        "image": "images/skills/chatGPT.png"
+      },
+      {
+        "name": "Pixexid",
+        "image": "images/skills/pixexid.png"
+      }
+    ],
+    "Programmations": [
+      {
+        "name": "HTML",
+        "image": "images/skills/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "images/skills/css.png"
+      },
+      {
+        "name": "JS",
+        "image": "images/skills/javascript.png"
+      },
+      {
+        "name": "Java",
+        "image": "images/skills/java.png"
+      },
+      {
+        "name": "Lua",
+        "image": "images/skills/lua.png"
+      },
+      {
+        "name": "Python",
+        "image": "images/skills/python.png"
+      }
+    ],
+    "Autres": [
+      {
+        "name": "Blender",
+        "image": "images/skills/blender.png"
+      },
+      {
+        "name": "FL Studio",
+        "image": "images/skills/FL_studio.png"
+      },
+      {
+        "name": "LMMS",
+        "image": "images/skills/llms.png"
+      },
+      {
+        "name": "Audacity",
+        "image": "images/skills/audacity.png"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "ASTEP / Partenaire scientifique",
+      "description": "Pendant ma première année à l'université, j'ai participé au projet ASTEP avec deux camarades de classe. Nous avons donné plusieurs cours d'informatique et de robotique dans une école primaire.",
+      "category": [
+        "IUT Info",
+        "2023"
+      ],
+      "image": "images/experiences/partenaires-scientifiques.png"
+    },
+    {
+      "title": "Compétition League Of Legend Universitaire",
+      "description": "Tournoi universitaire organisé par L'EpsUp et le Brest Open Campus. Nous avons fini premier de la compétition",
+      "category": [
+        "Jeu vidéo",
+        "2024"
+      ],
+      "image": "images/experiences/coupe_lol.mp4"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Email",
+      "link": "mailto:pontjonathan@laposte.net",
+      "image": "images/contacts/mail.png"
+    },
+    {
+      "name": "Discord",
+      "link": "https://discord.com/users/295972656031727616",
+      "image": "images/contacts/discord.png"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/jonathan-pont-631048290",
+      "image": "images/contacts/linkedin.png"
+    },
+    {
+      "name": "Youtube",
+      "link": "https://www.youtube.com/channel/UCXfZL3IummWDY3XBzbK-Idg",
+      "image": "images/contacts/youtube.png"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/lufitopia/",
+      "image": "images/contacts/instagram.png"
+    }
+  ]
+}
