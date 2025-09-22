@@ -3,10 +3,12 @@
     "name": "Jonathan PONT.",
     "title": "Etudiant en Communication.",
     "description": {
-      "firstPart": "J'ai 21 ans",
-      "secondPart": "et j'étudie la communication sous tout ses angles, actuellement en 2ème année"
+      "firstPart": "J'ai 22 ans",
+      "linkText": "Sup'DeCom",
+      "link": "https://www.ecoles-supdecom.com/",
+      "secondPart": "et j'étudie la communication sous tout ses angles, actuellement en 3ème année"
     },
-    "about": "Je suis étudiant en BTS Communication, passionné par divers domaines de la communication, notamment la création de contenus visuels, le montage vidéo, l'animation 3D et la production musicale. J'ai acquis une solide base de connaissances à travers ma formation académique et mes projets personnels, qui m'ont permis de développer ma créativité et mon sens de l'innovation."
+    "about": "Je suis étudiant en Bachelor Communication au Brest Open Campus, passionné par divers domaines de la communication, notamment la création de contenus visuels, le montage vidéo, l'animation 3D et la production musicale. J'ai acquis une solide base de connaissances à travers ma formation académique et mes projets personnels, qui m'ont permis de développer ma créativité et mon sens de l'innovation."
   },
 
   "projectButtons": [
