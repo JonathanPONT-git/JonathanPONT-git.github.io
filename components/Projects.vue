@@ -2,19 +2,45 @@
   <div id="projects" class="projects"></div>
   <div class="projects-container">
     <span class="projects-title">Plusieurs de mes projets</span>
-    <div class="flex justify-between max-w-fit">
+
+      <!-- Dropdown mobile (affiché < 640px) -->
+      <div class="sm:hidden mt-4 w-full flex justify-center relative z-40">
+        <label for="project-filter" class="sr-only">Filtrer les projets</label>
+        <select
+          id="project-filter"
+          v-model="mode"
+          class="w-11/12 max-w-xs rounded-full border-2 border-cyan-400
+                bg-slate-900 text-cyan-300
+                px-4 py-2 text-base
+                focus:outline-none focus:ring-2 focus:ring-cyan-400
+                relative z-40 pointer-events-auto"
+        >
+          <option
+            v-for="btn in projectButtons"
+            :key="btn.mode"
+            :value="btn.mode"
+            class="text-slate-900"
+          >
+            {{ btn.label }}
+          </option>
+        </select>
+      </div>
+
+
+    <!-- Rangée de boutons (tablette/desktop uniquement) -->
+    <div class="hidden sm:flex flex-wrap items-center justify-center gap-3">
       <ProjectCategoryButton
-          v-for="(category, index) in projectButtons"
-          :key="index"
-          :label="category.label"
-          :mode="mode"
-          @click="mode = category.mode"
-      ></ProjectCategoryButton>
+        v-for="(category, index) in projectButtons"
+        :key="index"
+        :label="category.label"
+        :mode="mode"
+        @click="mode = category.mode"
+      />
     </div>
-    <div class="z-10 w-3/4">
-      <Project
-          v-for="(project, index) in filteredProjects"
-          :key="`${mode}-${index}`"
+
+    <div class="z-10 w-full sm:w-3/4 px-4">
+      <div v-for="(project, index) in filteredProjects" :key="`${mode}-${index}`">
+        <Project
           :title="project.title"
           :description="project.description"
           :right="index % 2 === 0"
@@ -22,8 +48,12 @@
           :tools="project.tools"
           :image="project.image"
           :github="project.github"
-      ></Project>
+        />
+        <!-- Séparateur (pas après le dernier projet) -->
+        <hr v-if="index < filteredProjects.length - 1" class="my-8 border-gray-600/30 w-11/12 mx-auto">
+      </div>
     </div>
+
     <div class="w-full p-32"></div>
   </div>
   <div class="transition-block"></div>
@@ -34,7 +64,7 @@ import Project from "@/components/Project.vue";
 import ProjectCategoryButton from "@/components/ProjectCategoryButton.vue";
 
 export default {
-  components: {ProjectCategoryButton, Project},
+  components: { ProjectCategoryButton, Project },
   props: {
     projects: Array,
     projectButtons: Array,
@@ -42,14 +72,16 @@ export default {
   data() {
     return {
       mode: "All",
-    }
+    };
   },
   computed: {
     filteredProjects() {
       if (this.mode === "All") {
         return this.projects;
       } else {
-        return this.projects.filter((project) => project.category.includes(this.mode));
+        return this.projects.filter((project) =>
+          project.category.includes(this.mode)
+        );
       }
     },
   },
@@ -58,23 +90,26 @@ export default {
   },
   methods: {
     createObserver() {
-      const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('start-animation');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.1 });
+      const observer = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("start-animation");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
 
-      document.querySelectorAll('.animatable').forEach(el => {
+      document.querySelectorAll(".animatable").forEach((el) => {
         observer.observe(el);
       });
     },
     resetAnimations() {
-      const animatables = document.querySelectorAll('.animatable');
-      animatables.forEach(el => {
-        el.classList.remove('start-animation');
+      const animatables = document.querySelectorAll(".animatable");
+      animatables.forEach((el) => {
+        el.classList.remove("start-animation");
       });
       this.$nextTick(() => {
         this.createObserver();
@@ -88,7 +123,7 @@ export default {
       }
     },
   },
-}
+};
 </script>
 
 <style scoped>

@@ -2,16 +2,18 @@
   <div id="experience" class="experience">
     <div class="p-32 w-full"></div>
     <span class="experience-title">Petites expériences</span>
-    <div id="experience-list" class="z-10">
-      <Experience
-          v-for="(experience, index) in experiences"
-          :key="index"
-          :title="experience.title"
-          :description="experience.description"
-          :category="experience.category"
-          :image="experience.image"
-      ></Experience>
-    </div>
+      <div id="experience-list" class="z-10 w-full sm:w-3/4 px-4">
+        <div v-for="(experience, index) in experiences" :key="index">
+          <Experience
+            :title="experience.title"
+            :description="experience.description"
+            :category="experience.category"
+            :image="experience.image"
+          />
+          <!-- Séparateur (sauf après le dernier) -->
+          <hr v-if="index < experiences.length - 1" class="my-8 border-gray-600/30 w-11/12 mx-auto">
+        </div>
+      </div>
     <div class="p-32 w-full"></div>
   </div>
   <div class="transition-block"></div>

@@ -44,3 +44,31 @@
   .skill { width: auto !important; padding: .5rem !important; }
   .skill span { color: #334155 !important; } /* slate-700 pour fond blanc */
 }
+
+/* NAV mobile : rend la barre horizontale scrollable, texte plus petit */
+@media (max-width: 640px) {
+  .nav-style { padding-top: 8px !important; padding-bottom: 8px !important; }
+  .nav-style ul {
+    display: flex !important;
+    align-items: center;
+    gap: 12px !important;
+    padding: 0 12px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+  .nav-style ul::-webkit-scrollbar { display: none; }
+  .nav-style li { margin-left: 0 !important; }
+  .menu-item { font-size: 1rem !important; }
+  .contact-button {
+    font-size: 1rem !important;
+    padding: 8px 12px !important;
+  }
+}
+
+/* 1) Les blocs décoratifs ne doivent pas intercepter les clics */
+.transition-block {
+  pointer-events: none !important;
+  z-index: 0 !important;
+}

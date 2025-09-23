@@ -37,9 +37,19 @@ export default {
       experiences: config.experiences,
       projectButtons: config.projectButtons,
       contacts: config.contacts,
+      // pour appliquer l’état dès le chargement
+      animationsEnabled: true,
     };
   },
   mounted() {
+    // 1) Respecter le choix sauvegardé AVANT que Home.vue monte
+    const saved = localStorage.getItem('animationsEnabled');
+    if (saved !== null) {
+      this.animationsEnabled = saved === 'true';
+    }
+    document.documentElement.classList.toggle('no-animations', !this.animationsEnabled);
+
+    // 2) Ton observer d’animations existant
     this.createObserver();
   },
   methods: {
@@ -86,3 +96,32 @@ useHead({
   ]
 })
 </script>
+
+<!-- IMPORTANT : style global NON scoped -->
+<style>
+/* Bouton OFF => coupe toutes les animations/transitions et le scroll fluide */
+.no-animations * {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+/* Garantit que tes éléments animés ne restent pas invisibles quand on coupe */
+.no-animations .animatable {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* (Optionnel) Si tu veux aussi respecter la préférence système */
+@media (prefers-reduced-motion: reduce) {
+  :root:not(.force-animations) * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  :root:not(.force-animations) .animatable {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+</style>
