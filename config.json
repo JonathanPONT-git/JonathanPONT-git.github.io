@@ -210,6 +210,10 @@
         "image": "images/skills/photoshop.png"
       },
       {
+        "name": "After Effect",
+        "image": "images/skills/AfterEffect.png"
+      },
+      {
         "name": "Sony Vegas Pro",
         "image": "images/skills/sony_vegas_pro.png"
       },
@@ -220,11 +224,8 @@
       {
         "name": "Canva",
         "image": "images/skills/canva.png"
-      },
-      {
-        "name": "After Effect",
-        "image": "images/skills/AfterEffect.png"
       }
+
     ],
     "Outils": [
       {

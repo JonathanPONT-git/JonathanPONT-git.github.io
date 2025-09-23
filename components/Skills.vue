@@ -1,7 +1,7 @@
 <template>
   <div id="skills" class="skills">
     <div class="m-24"></div>
-    <span class="skills-title">Quelles sont mes compétences?</span>
+    <span class="skills-title">Quelles sont mes Compétences?</span>
     <div class="skills-container">
       <div id="skills-menu" class="w-96 bg-transparent flex flex-col">
         <SkillCategoryButton v-for="(_, index) in skills"

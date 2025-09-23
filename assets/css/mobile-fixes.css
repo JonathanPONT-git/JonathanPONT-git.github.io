@@ -1,0 +1,46 @@
+/* Correctifs responsive global pour les petits écrans */
+@media (max-width: 640px) {
+
+  /* ---------- HOME ---------- */
+  #home .ml-96 { margin-left: 0 !important; padding: 0 1rem; }
+  #home .name-title { font-size: 2rem !important; }
+  #home .role-title { font-size: 1.5rem !important; margin-top: .25rem !important; }
+  #home .intro-description { font-size: 1rem !important; max-width: 100% !important; margin-top: .75rem !important; }
+
+  /* ---------- ABOUT ---------- */
+  #about .info-section { flex-direction: column !important; align-items: center !important; gap: 1rem !important; }
+  #about .about-text { margin-right: 0 !important; font-size: 1rem !important; text-align: center !important; }
+  #about .profile-picture { max-height: 10rem !important; margin-left: 0 !important; }
+
+  /* ---------- PROJECTS (liste & cartes) ---------- */
+  #projects .flex.justify-between { flex-direction: column !important; gap: 1rem !important; margin: 1rem 0 !important; }
+  #projects .project-info { margin: 0 !important; transform: none !important; text-align: left !important; }
+  #projects .project-title { font-size: 1.5rem !important; }
+  #projects .project-description { font-size: 1rem !important; }
+  #projects .media { max-height: 14rem !important; }
+
+  /* ---------- EXPERIENCES (mêmes règles que projects) ---------- */
+  #experience .flex.justify-between { flex-direction: column !important; gap: 1rem !important; margin: 1rem 0 !important; }
+  #experience .description-text { font-size: 1rem !important; }
+  #experience .media { max-height: 14rem !important; }
+
+  /* ---------- CONTACTS ---------- */
+  #contact .flex { flex-wrap: wrap !important; justify-content: center !important; gap: .75rem !important; }
+  .contact-image { width: 3rem !important; height: 3rem !important; }
+
+  /* ---------- SKILLS ---------- */
+  #skills .skills-container { flex-direction: column !important; gap: 1rem !important; margin-top: 1rem !important; }
+  #skills #skills-menu {
+    width: 100% !important;
+    display: flex !important; flex-wrap: wrap !important;
+    justify-content: center !important; gap: .5rem !important;
+  }
+  #skills #skills-list { padding: 1rem !important; }
+  #skills #software-development-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: .75rem !important;
+  }
+  .skill { width: auto !important; padding: .5rem !important; }
+  .skill span { color: #334155 !important; } /* slate-700 pour fond blanc */
+}

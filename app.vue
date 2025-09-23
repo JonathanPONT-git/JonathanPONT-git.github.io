@@ -71,7 +71,7 @@ useHead({
     },
     {
       name: "author",
-      content: config.infos.name,
+      content: "Jonathan PONT",
     },
     {
       name: "viewport",

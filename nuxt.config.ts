@@ -5,5 +5,8 @@ export default defineNuxtConfig({
   particles: { mode: 'slim', lazy: false },
 
   app: { baseURL: '/' },          // ✅ IMPORTANT
-  nitro: { preset: 'github-pages' } // 404.html + .nojekyll
+  nitro: { preset: 'github-pages' }, // 404.html + .nojekyll
+  css: [
+    '@/assets/css/mobile-fixes.css'
+  ],
 })
